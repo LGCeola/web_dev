@@ -5,19 +5,15 @@ Alunos: Francisco Marcelo Caetano Costa e Lucas Grimes Ceola
 
 
 Requisitos Funcionais (RF)
-•	RF001: O sistema deve permitir o cadastro de jogos com nome, plataforma, gênero e estado do jogo (ex.: novo, usado, disponível, emprestado,
-  vendido).
+•	RF001: O sistema deve permitir o cadastro de jogos com nome, plataforma, gênero e estado do jogo (ex.: novo, usado, disponível, emprestado, vendido).
 •	RF002: O sistema deve permitir a listagem de todos os jogos cadastrados, exibindo suas informações.
 •	RF003: O sistema deve permitir a atualização das informações de um jogo incluindo alteração do estado do jogo.
 •	RF004: O sistema deve permitir a exclusão de um jogo do inventário.
-•	RF005: O sistema deve permitir registrar o empréstimo de um jogo, alterando seu estado para “emprestado” e registrando a data e o nome da 
-  pessoa que pegou emprestado.
-•	RF006: O sistema deve permitir registrar a venda de um jogo, alterando seu estado para “vendido” e registrando a data e o nome da pessoa 
-  que pegou emprestado.
+•	RF005: O sistema deve permitir registrar o empréstimo de um jogo, alterando seu estado para “emprestado” e registrando a data e o nome da pessoa que pegou emprestado.
+•	RF006: O sistema deve permitir registrar a venda de um jogo, alterando seu estado para “vendido” e registrando a data e o nome da pessoa que pegou emprestado.
 •	RF007: O sistema deve impedir o retorno de um jogo que já esteve marcado como “vendido”.
 •	RF008: O sistema deve permitir o retorno de um jogo emprestado, alterando seu estado para “disponível”.
 •	RF009: O sistema deve permitir buscar jogos por nome, plataforma ou gênero.
-
 
 
 Requisitos Não-Funcionais (RNF)
@@ -26,6 +22,7 @@ Requisitos Não-Funcionais (RNF)
 •	RNF003: O tempo de resposta para exibição da lista de jogos deve ser inferior a 2 segundos.
 •	RNF004: O sistema deve implementar a autenticação para proteger as informações dos usuários.
 •	*RNF005: O sistema deve utilizar criptografia para armazenar dados sensíveis.
+
 
 
 Apresentar as estratégias de desenvolvimento, tipo de arquitetura (monolítico ou microservice) e ratificar as tecnologias escolhidas, 
