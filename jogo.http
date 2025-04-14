@@ -1,0 +1,33 @@
+POST http://localhost:5000/jogos
+Content-Type: "application/json"
+
+{
+    "nome": "The Last Of Us",
+    "plataforma": "Playstation",
+    "genero":"Aventura",
+    "status":"Disponivel"
+    
+}
+###
+GET http://localhost:5000/jogos
+Content-Type: "application/json"
+###
+PUT http://localhost:5000/jogos/5
+Content-Type: "application/json"
+
+{
+    "nome": "The Last Of Us 2",
+    "plataforma": "Playstation ",
+    "genero":"Aventura",
+    "status":"Disponivel"
+}
+###
+PATCH http://localhost:5000/emprestar/4
+Content-Type: "application/json"
+
+{
+    "emprestado_para": "Lucas Grimes",
+    "data_emprestimo": "2025-04-12"
+}
+###
+DELETE http://localhost:5000/5
