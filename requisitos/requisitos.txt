@@ -13,7 +13,7 @@ Requisitos Funcionais (RF)
 • RF005: O sistema deve permitir registrar o empréstimo de um jogo, alterando seu estado para “emprestado” e registrando a data e o 
   nome da pessoa que pegou emprestado.
 • RF006: O sistema deve permitir registrar a venda de um jogo, alterando seu estado para “vendido” e registrando a data e o nome da 
-  pessoa que pegou emprestado.
+  pessoa que o comprou.
 • RF007: O sistema deve impedir o retorno de um jogo que já esteve marcado como “vendido”.
 • RF008: O sistema deve permitir o retorno de um jogo emprestado, alterando seu estado para “disponível”.
 • RF009: O sistema deve permitir buscar jogos por nome, plataforma ou gênero.
