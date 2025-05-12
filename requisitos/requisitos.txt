@@ -24,7 +24,6 @@ Requisitos Não-Funcionais (RNF)
 • RNF002: O sistema deve armazenar os dados dos jogos e transações em um banco de dados relacional.
 • RNF003: O tempo de resposta para exibição da lista de jogos deve ser inferior a 2 segundos.
 • RNF004: O sistema deve implementar a autenticação para proteger as informações dos usuários.
-• RNF005: O sistema deve utilizar criptografia para armazenar dados sensíveis.
 
 
 
