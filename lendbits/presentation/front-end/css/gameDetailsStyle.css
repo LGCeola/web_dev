@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  font-family: 'Montserrat';
+  background-color: #f9f9f9;
+  color: #07497a;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 72px 4vw 48px;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 0 24px;
+  border-bottom: 1px solid #ddd;
+}
+
+.brand {
+  flex: 0 0 180px;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+}
+
+.brand img {
+  width: 90px;
+}
+
+.menu {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.menu a {
+  color: #07497a;
+  padding: 22px 12px;
+  text-decoration: none;
+  font-size: 22px;
+  transition: opacity .2s;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  opacity: .7;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  padding: 0.5rem;
+}
+
+.avatar-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #07497a;
+  color: #fff;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.avatar-circle:hover {
+  background-color: #0d5f9c;
+  transform: scale(1.05);
+}
+
+.details-container {
+  padding: 30px;
+}
+
+.back-button {
+  text-decoration: none;
+  color: #07497a;
+  font-size: 24px;
+}
+
+.game-content {
+  display: flex;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  gap: 30px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 35px;
+}
+
+.main-image {
+  width: 400px;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.thumbnails {
+  padding-left: 70px; 
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.thumb {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 6px;
+}
+
+#add-button {
+  padding: 16px 80px;
+  font-family: 'Montserrat';
+  background-color: #003c7e;
+  font-size: 22px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.right-side {
+  flex: 1;
+  padding-top: 65px;
+}
+
+#game-description {
+  line-height: 1.6;
+}
+
+/* 
+-- ICONS
+*/
+
+.avatar-circle i {
+  font-size: 60px;
+  color: #fff;
+}

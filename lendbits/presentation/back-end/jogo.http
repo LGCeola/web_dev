@@ -1,0 +1,35 @@
+GET http://localhost:5000/jogos
+Content-Type: application/json
+
+###
+POST http://localhost:5000/jogos
+Content-Type: application/json
+
+{
+    "nome": "Genshin impact",
+    "plataforma": "Playstation",
+    "genero":"Gacha",
+    "status":"Disponivel"
+    
+}
+
+###
+PUT http://localhost:5000/jogos/11
+Content-Type: application/json
+
+{
+    "nome": "Genshin impact 2",
+    "plataforma": "Playstation ",
+    "genero":"Gacha",
+    "status":"Disponivel"
+}
+###
+PATCH http://localhost:5000/jogos/emprestar/10
+Content-Type: application/json
+
+{
+    "emprestado_para": "Lucas Ceola",
+    "data_emprestimo": "2025-05-19"
+}
+###
+DELETE http://localhost:5000/jogos/3

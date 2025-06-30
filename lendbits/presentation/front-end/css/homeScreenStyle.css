@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    font-family: 'Montserrat';
+    background-color: #f9f9f9;
+    color: #07497a;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 72px 4vw 48px;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 0 24px;
+    border-bottom: 1px solid #ddd;
+}
+
+.brand {
+    flex: 0 0 180px;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.brand img {
+    width: 90px;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.menu a {
+    color: #07497a;
+    padding: 22px 12px;
+    text-decoration: none;
+    font-size: 22px;
+    transition: opacity .2s;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    opacity: .7;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    padding: 0.5rem;
+}
+
+.avatar-circle {
+    width: 60px;
+    height: 60px;
+    background-color: #07497a;
+    color: #fff;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.avatar-circle:hover {
+    background-color: #0d5f9c;
+    transform: scale(1.05);
+}
+
+.floating-btn {
+    position: fixed;
+    top: 140px;
+    right: 35px;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #07497a;
+    color: #fff;
+    font-size: 28px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    z-index: 1000;
+}
+
+.floating-btn:hover {
+    background-color: #0d5f9c;
+    transform: scale(1.05);
+}
+
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.game-card {
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    border: 2px solid #07497a;
+    padding: 20px;
+    width: 180px;
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.card-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-content p {
+    font-size: 14px;
+    text-align: center;
+    margin: 4px 0;
+}
+
+.cover {
+    width: 100%;
+    padding-top: 130%;
+    background: #f9f9f9;
+    border: 16px solid #fff;
+    border-radius: 24px;
+}
+
+.game-card {
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
+
+footer {
+    background: #f9f9f9;
+    padding: 32px 0 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.slogan {
+    margin: 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    color: #07497a;
+    opacity: 0;
+    transition: opacity .6s;
+}
+
+/* 
+-- ICONS
+*/
+
+.floating-btn i {
+    font-size: 32px;
+    color: #fff;
+}
+
+.avatar-circle i {
+    font-size: 60px;
+    color: #fff;
+}

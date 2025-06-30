@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Montserrat';
+    background-color: #f9f9f9;
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 140px;
+    height: auto;
+    object-fit: contain;
+}
+
+.login-area {
+    min-height: calc(90vh - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background: #e3e3e3;
+}
+
+.card {
+    background: #fff;
+    width: 100%;
+    max-width: 420px;
+    padding: 48px 56px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 05);
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    font-weight: 700;
+}
+
+input {
+    border: none;
+    border-radius: 24px;
+    padding: 16px 20px;
+    background: #f0f0f0;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: 2px solid #004070;
+}
+
+.forgot-psw {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -8px;
+    margin-bottom: 8px;
+}
+
+.forgot-psw a {
+    font-size: 14px;
+    color: #0048ff;
+    text-decoration: none;
+}
+
+.forgot-psw a:hover {
+    text-decoration: underline;
+}
+
+.btn-login {
+    margin-top: 8px;
+    border: none;
+    border-radius: 15px;
+    padding: 14px 0;
+    font-size: 24px;
+    font-weight: 600;
+    background: #07497A;
+    color: #fff;
+    cursor: pointer;
+    transition: filter .2s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-login:hover {
+    filter: brightness(1.4);
+}

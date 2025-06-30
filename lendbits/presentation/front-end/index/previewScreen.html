@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/previewStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>LendBits</title>
+</head>
+    <body>
+        <header class="navbar">
+            <div class="brand">
+                <a href="../index/homeScreen.html">
+                    <img src="../img/lendbits_logo.png" alt="LendBits">
+                </a>
+            </div>
+
+            <nav class="menu">
+                <a href="../index/homeScreen.html">Inicío</a>
+                <a href="../index/gamesListScreen.html">Lista de Jogos</a>
+                <a href="../index/transactionScreen.html">Transações</a>
+                <a href="../index/history.html">Histórico de Transações</a>
+                <a href="../index/userDetailsScreen.html" class="avatar">
+                    <div class="avatar-circle">
+                        <i class="material-icons">account_circle</i>
+                    </div>
+                </a>
+            </nav>
+        </header>
+          <main class="preview-area">
+            <div class="preview">
+                <img src="../img/the-legend-of-zelda-.jpg" alt="Imagem do Zelda">
+            </div>
+            <form class="card" action="#" method="post">
+                <div class="field">
+                    <label for="NomeJogo">Nome do jogo:</label>
+                    <input type="text" id="NomeJogo" name="NomeJogo" required>
+                </div>
+                <div class="field">
+                    <label for="Plataforma">Plataforma:</label>
+                    <input type="text" id="Plataforma" name="Plataforma" required>
+                </div>
+                <div class="field">
+                    <label for="Genero">Gênero:</label>
+                    <input type="text" id="Genero" name="Genero" required>
+                 </div>
+                 <div class="field">
+                    <label for="Descricao">Descrição:</label>
+                    <input type="text" id="Descricao" name="Descricao" required>
+                </div>
+                <div class="preview-buttons">
+                    <button class="btn-azul">Salvar</button>
+                    <button class="btn-azul">Cancelar</button>
+                </div>
+            </form>
+        </main>
+    </body>
+    </html>

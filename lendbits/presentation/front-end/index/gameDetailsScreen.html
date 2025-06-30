@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/gameDetailsStyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>LendBits</title>
+</head>
+    <body>
+        <header class="navbar">
+            <div class="brand">
+                <a href="../index/homeScreen.html">
+                    <img src="../img/lendbits_logo.png" alt="LendBits">
+                </a>
+            </div>
+
+            <nav class="menu">
+                <a href="../index/homeScreen.html">Inicío</a>
+                <a href="../index/gamesListScreen.html">Lista de Jogos</a>
+                <a href="../index/historyTransactionScreen.html">Histórico de Transações</a>
+                <a href="../index/userDetailsScreen.html" class="avatar">
+                    <div class="avatar-circle">
+                        <i class="material-icons">account_circle</i>
+                    </div>
+                </a>
+            </nav>
+        </header>
+        <main class="details-container">
+            <a href="gamesListScreen.html" class="back-button">
+            <i class="material-icons">arrow_back</i>
+            </a>
+
+            <div class="game-content">
+                <div class="left-side">
+                    <div class="main-image">
+                    <img src="../img/default_game.jpg" id="game-image">
+                    <p id="game-title"></p>
+                    </div>
+                    <div class="thumbnails">
+                    <div class="thumb"></div>
+                    <div class="thumb"></div>
+                    <div class="thumb"></div>
+                    <div class="thumb"></div>
+                    </div>
+                    <button id="add-button">Adicionar</button>
+                </div>
+
+                <div class="right-side">
+                    <h2 id="game-title-label">Título</h2>
+                    <p id="game-description">
+                    DescriçãoDescriçãoDescriçãoDescrição<br>
+                    DescriçãoDescriçãoDescriçãoDescrição
+                    </p>
+                </div>
+            </div>
+        </main>
+        <script src="../scripts/gameDetails.js"></script>
+    </body>
+</html>
